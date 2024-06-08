@@ -18,7 +18,7 @@ class FileView:
             st.title("Chatbot TIA 👋")
 
     def render_file_uploader(data):
-        return st.file_uploader("Upload File Pembelajaran Sistem Basis Data🖥️", type=["pdf", "doc", "docx", "ppt", "pptx"])
+        return st.file_uploader("Upload File Pembelajaran Pemrograman Berbasis Web🖥️", type=["pdf", "doc", "docx", "ppt", "pptx"])
 
     def show_success(data, message):
         st.success(message)
