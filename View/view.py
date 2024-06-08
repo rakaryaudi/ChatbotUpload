@@ -8,7 +8,7 @@ class FileView:
         st.set_page_config(page_title="Upload File Pembelajaran TIA", page_icon=":books:")
 
     def render_header(data):
-        logo_url = "https://github.com/rakaryaudi/ChatbotUpload/blob/47ae05b7ff2d4dd9a685ee449fe9e5d8dfb740a6/Assets/logo.png"
+        logo_url = "https://github.com/GabrielDFA/Tia-Chatbot/blob/e0f2ec150495c0298da9b9e9ec1f50a71e41333b/Asset/logo.png?raw=true"
         response = requests.get(logo_url)
         logo = Image.open(BytesIO(response.content))
         col1, col2 = st.columns([1, 7])
