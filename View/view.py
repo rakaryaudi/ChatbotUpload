@@ -15,7 +15,7 @@ class FileView:
         with col1:
             st.image(logo, width=80)
         with col2:
-            st.title("Upload Mater Pemrograman Berbasis Objek👋")
+            st.title("Upload Materi Pemrograman Berbasis Objek👋")
 
     def render_file_uploader(data):
         return st.file_uploader("Upload File Pembelajaran Pemrograman Berbasis Objek🖥️", type=["pdf", "doc", "docx", "ppt", "pptx"])
