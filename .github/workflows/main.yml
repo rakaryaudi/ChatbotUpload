@@ -19,5 +19,5 @@ jobs:
           python-version: '3.11'
       - uses: streamlit/streamlit-app-action@v0.0.3
         with:
-          app-path: main.py
+          app-path: test.py
           ruff: true
