@@ -19,11 +19,11 @@ def render_ui():
     with col1:
         st.image(logo, width=80)
     with col2:
-        st.subheader("Tanya TIA - Pemrograman Berbasis Web👋")
+        st.subheader("Tanya TIA (Telkom University Interactive Assistant)👋")
 
     st.write("TIA - Tel-U Interactive AI")
 
-    st.text_input("Tanya TIA seputar materi mata kuliah Pemrograman Berbasis Web... ", key='query', on_change=submit)
+    st.text_input("Tanya TIA seputar Telkom University... ", key='query', on_change=submit)
 
     user_input = st.session_state.user_input
 
